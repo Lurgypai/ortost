@@ -1,0 +1,65 @@
+@font-face {
+  font-family: 'Alice';
+  src: url('assets/Alice-Regular.eot'); /* IE9 Compat Modes */
+  src: url('assets/Alice-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('assets/Alice-Regular.woff') format('woff'), /* Modern Browsers */
+       url('assets/Alice-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('assets/Alice-Regular.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+.center{
+    text-align: center;
+}
+
+.alice-font{
+    font:inherit;
+    font-family: "Alice", serif;
+}
+
+.title{
+  display: block;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+}
+
+.text{
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 30pt;
+}
+
+.fade_in {
+  animation: fadeIn linear 0.5s;
+  -webkit-animation: fadeIn linear 0.5s;
+  -moz-animation: fadeIn linear 0.5s;
+  -o-animation: fadeIn linear 0.5s;
+  -ms-animation: fadeIn linear 0.5s;
+}
+
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
